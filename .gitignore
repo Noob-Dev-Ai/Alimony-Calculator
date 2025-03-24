@@ -134,3 +134,44 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# ================================
+# Angular Specific Ignored Files
+# ================================
+# Angular built files and temp files
+/.angular/
+/.angular/
+dist/
+tmp/
+out-tsc/
+
+# Compiled TypeScript files
+*.js
+*.js.map
+
+# Angular environment settings
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Cypress (for E2E testing)
+cypress/screenshots/
+cypress/videos/
+cypress/e2e/*.ts
+
+# ================================
+# Node.js (Backend) Specific Ignored Files
+# ================================
+# Node.js modules
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Debugging
+.vscode/
+.idea/
+
+# PM2 logs
+.pm2/logs/
